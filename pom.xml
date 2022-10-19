@@ -22,7 +22,6 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
@@ -63,7 +62,6 @@
             <artifactId>spring-orm</artifactId>
         </dependency>
 
-        <!--        tomcat and JSTL         -->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>

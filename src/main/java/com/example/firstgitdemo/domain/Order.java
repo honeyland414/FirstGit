@@ -23,10 +23,6 @@ public class Order {
     @Column(name = "price")
     private Integer price;
 
-//    @Column(name = "user_id")
-//    private Integer userId;
-
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+    @Column(name = "user_id")
+    private Integer userId;
 }
